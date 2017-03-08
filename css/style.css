@@ -1,29 +1,60 @@
 header, footer, nav, article {
     display: block;
 }
+
 a  {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: "Roboto", Arial, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #000;
+}
+p  {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", Arial, sans-serif;
+    text-decoration: none;
+    line-height: 1.4;
+    color: #000;
 }
 h2 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     font-family: "Roboto", Arial, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #000;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto", Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+strong {
+    font-size: 48px;
+    font-weight: 200;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #000;
+    line-height: 1;
+    
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .main-navigation {
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    
     background: #eeeeee;
 }
 nav {
@@ -45,35 +76,36 @@ nav {
     text-decoration: none;
     color: #000;
 }
-.wrap {
-    width: 1200px;
-    margin: 0 auto;
-}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+    margin-bottom: 62px;
 }
 .item {
-    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    margin-bottom: 20px;
 }
-.item img {
-    padding-left: 50px;
-}
+
 .item h2 {
     text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
 .logotype {
     width: 160px;
     height: 65px;
     
-    padding-left: 275px;
+    padding-left: 65px;
     
     background-image: url("../img/nerds-logo.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-
 .basket {
     padding-top: 15px;
 }
@@ -90,31 +122,104 @@ nav {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-
 .description {
     width: 480px;
 }
-
-.slider {
-    display: block;
-    width: 698px;
-    height: 413px;
-    
-    background-image: url("../img/slide1.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
 .description h2 {
-    padding-left: 70px;
+    padding-left: 75px;
     padding-top: 35px;
+    margin-bottom: 25px;
     
     font-size: 55px;
     line-height: 1;
     font-weight: 600;
     text-transform: none;
 }
-
+.description p {
+    padding-left: 80px;
+    padding-right: 60px;   
+}
+.description a {
+    display: block;
+    width: 240px;
+    height: 35px;
+    
+    margin-left: 80px;
+    margin-top: 40px;
+    padding-top: 15px;
+    
+    text-align: center;
+    color: #ffffff;
+    
+    background: #fb565a;
+}
+.slider {
+    display: block;
+    width: 698px;
+    height: 413px;
+    
+    margin-top: 15px;
+    
+    background-image: url("../img/slide1.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
 .top {
     background: #eeeeee;
+}
+.order {
+    display: block;
+    width: 160px;
+    height: 35px;
+    
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 6px;
+    
+    color: #fff;
+}
+.red {
+    background: #fb565a;
+}
+.green {
+    background: #00ca74;
+}
+.yellow {
+    background: #efc84a;
+}
+.wrap {
+    max-width: 1200px;
+    width: 100%;
+    
+    margin: 0 auto;
+    margin-top: 80px;
+    
+    border-bottom: 2px solid #eeeeee;
+}
+.col_3 {
+    width: 300px;
+}
+.col_8 {
+    width: 800px;
+}
+.col_4 {
+    width: 400px;
+}
+.col_4 ul {
+    display: flex;
+    flex-direction: column;
+}
+.col_4 ul li {
+    list-style: none;
+}
+.col_8 p {
+    padding-left: 30px;
+    padding-right: 90px;
+    padding-bottom: 0;
+}
+.col_8 ul li:first-child {
+    list-style: none;
+}
+.col_8 ul li {
+    padding-bottom: 20px;
 }
