@@ -76,6 +76,16 @@ nav {
     text-decoration: none;
     color: #000;
 }
+.main-navigation ul li a:hover {
+    color: #fb565a;
+}
+.main-navigation ul li a:active {
+    color: #a6a6a6;
+}
+.active {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fb565a;
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -106,8 +116,20 @@ nav {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+.logotype:hover {
+    background-image: url("../img/nerds-logo-hov.png");
+}
+.logotype:active {
+    background-image: url("../img/nerds-logo-act.png");
+}
 .basket {
     padding-top: 15px;
+}
+.basket:hover {
+    color: #fb565a;
+}
+.basket:active {
+    color: #a6a6a6;
 }
 .basket span {
     position: relative;
@@ -143,6 +165,7 @@ nav {
     display: block;
     width: 240px;
     height: 35px;
+    border-radius: 2px;
     
     margin-left: 80px;
     margin-top: 40px;
@@ -152,6 +175,13 @@ nav {
     color: #ffffff;
     
     background: #fb565a;
+}
+.description a:hover {
+    background: #e74246;
+}
+.description a:active {
+    background: #d7373b;
+    color: #e37376;
 }
 .slider {
     display: block;
@@ -171,6 +201,7 @@ nav {
     display: block;
     width: 160px;
     height: 35px;
+    border-radius: 2px;
     
     text-align: center;
     padding-top: 15px;
@@ -181,11 +212,32 @@ nav {
 .red {
     background: #fb565a;
 }
+.red:hover {
+    background: #e74246;
+}
+.red:active {
+    background: #d7373b;
+    color: #e06366;
+}
 .green {
     background: #00ca74;
 }
+.green:hover {
+    background: #00bc6c;
+}
+.green:active {
+    background: #00aa62;
+    color: #48c28e;
+}
 .yellow {
     background: #efc84a;
+}
+.yellow:hover {
+    background: #eab534;
+}
+.yellow:active {
+    background: #e5a722;
+    color: #edc265;
 }
 .wrap {
     max-width: 1200px;
@@ -222,4 +274,196 @@ nav {
 }
 .col_8 ul li {
     padding-bottom: 20px;
+}
+.brand {
+    width: 400px;
+    
+}
+.brand_1 {
+    display: block;
+    width: 199px;
+    height: 68px;
+    
+    background-image: url("../img/logo-1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.brand_1:hover {
+    background-image: url("../img/logo-1-hov.png");
+}
+.brand_1:active {
+    background-image: url("../img/logo-1-act.png");
+}
+.brand_2 {
+    display: block;
+    width: 209px;
+    height: 90px;
+    
+    background-image: url("../img/logo-2.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.brand_2:hover {
+    background-image: url("../img/logo-2-hov.png");
+}
+.brand_2:active {
+    background-image: url("../img/logo-2-act.png");
+}
+.brand_3 {
+    display: block;
+    width: 185px;
+    height: 52px;
+    
+    background-image: url("../img/logo-3.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.brand_3:hover {
+    background-image: url("../img/logo-3-hov.png");
+}
+.brand_3:active {
+    background-image: url("../img/logo-3-act.png");
+}
+.brand_4 {
+    display: block;
+    width: 173px;
+    height: 84px;
+    
+    background-image: url("../img/logo-4.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.brand_4:hover {
+    background-image: url("../img/logo-4-hov.png");
+}
+.brand_4:active {
+    background-image: url("../img/logo-4-act.png");
+}
+.map {
+    display: block;
+    width: 1440px;
+    height: 418px;
+    
+    background-image: url("../img/map.png");
+}
+
+.contacts {
+    position: relative;
+    top: 35px;
+    left: 140px;
+    
+    display: block;
+    width: 319px;
+    height: 308px;
+    
+    background: #fff;
+}
+
+.contacts h3 {
+    padding-top: 52px;
+    padding-left: 50px;
+    
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", Arial, sans-serif;
+}
+.contacts p {
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 50px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #666666;
+}
+.contacts a {
+    display: block;
+    width: 219px;
+    height: 35px;
+    border-radius: 2px;
+    
+    margin-left: 50px;
+    padding-top: 15px;
+    
+    background: #fb565a;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", Arial, sans-serif;
+}
+.contacts a:hover {
+    background: #e74246;
+}
+.contacts a:active {
+    background: #d7373b;
+    color: #e37376;
+}
+.wrap-big {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.vk {
+    display: block;
+    width: 80px;
+    height: 80px;
+    
+    background-image: url("../img/vk-icon.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.vk:hover {
+    background-image: url("../img/vk-hov.png");
+}
+.vk:active {
+    background-image: url("../img/vk-act.png");
+}
+.facebook {
+    display: block;
+    width: 80px;
+    height: 80px;
+    
+    background-image: url("../img/fb-icon.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.facebook:hover {
+    background-image: url("../img/f-hov.png");
+}
+.facebook:active {
+    background-image: url("../img/f-act.png");
+}
+.instagram {
+    display: block;
+    width: 80px;
+    height: 80px;
+    
+    background-image: url("../img/insta-icon.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.instagram:hover {
+    background-image: url("../img/in-hov.png");
+}
+.instagram:active {
+    background-image: url("../img/in-act.png");
+}
+.social {
+    width: 260px;
+}
+
+.map-marker {
+    position: relative;
+    top: -240px;
+    left: 700px;
+    
+    display: block;
+    width: 231px;
+    height: 190px;
+    
+    background-image: url("../img/map-marker.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
